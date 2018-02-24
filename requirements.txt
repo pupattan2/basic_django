@@ -3,3 +3,4 @@ requests==2.18.4
 gunicorn
 psycopg2==2.7
 whitenoise
+dj-database-url==0.4.2
