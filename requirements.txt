@@ -1,4 +1,4 @@
 Django==1.11.4
 requests==2.18.4
 gunicorn
-psycopg2==2.5.3
+psycopg2==2.7
