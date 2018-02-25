@@ -18,7 +18,9 @@ from django.conf import settings
 from django.contrib import messages
 from datetime import datetime
 # Create your views here.
-
+from .models import TestDB
 
 def dashboard(request):
+    _all = TestDB.objects.all()
+    print _all
     return render(request, 'index.html')
